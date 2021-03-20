@@ -1,0 +1,71 @@
+{
+  "site": "sxxzspj",
+  "camera_data": [
+    {
+      "cameraid": "north0005",
+      "link": "./demoInputVideo/MyVideo_14.avi",
+      "duty_data":[
+          {
+            "position": "128,181,349,374",
+            "dutyid": "001",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+          {
+            "position": "391,151,634,299",
+            "dutyid": "002",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+          {
+            "position": "659,85,858,209",
+            "dutyid": "003",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+          {
+            "position": "534,455,932,720",
+            "dutyid": "004",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+        {
+            "position": "955,348,1280,601",
+            "dutyid": "005",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15}
+      ]
+    }
+  ]
+}

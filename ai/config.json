@@ -1,0 +1,60 @@
+{
+
+  "site": "sxxzspj",
+  "camera_data": [
+    {
+      "cameraid": "north0001",
+      "link": "./demoInputVideo/MyVideo_2.mp4",
+      "duty_data":[
+          {
+            "position": "410,433,830,717",
+            "dutyid": "001",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+          {
+            "position": "737,306,999,498",
+            "dutyid": "002",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+	      {
+            "position": "798,181,960,342",
+            "dutyid": "003",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+          {
+            "position": "992,217,1177,403",
+            "dutyid": "004",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15}
+      ]
+    }
+  ]
+}
