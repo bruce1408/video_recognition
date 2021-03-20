@@ -105,7 +105,6 @@ class YOLO(object):
             self.yolo_decodes.append(
                 DecodeBox(self.anchors[i], len(self.class_names), (self.model_image_size[1], self.model_image_size[0])))
 
-        # print('{} model, anchors, and classes loaded.'.format(self.model_path))
         # 画框设置不同的颜色
         hsv_tuples = [(0.09, 0.79, 0.591) for x in range(len(self.class_names))]
         self.colors = list(map(lambda x: colorsys.hsv_to_rgb(*x), hsv_tuples))
@@ -192,10 +191,8 @@ def video_obj_pytorch(yolo, frame, read, ca_id, dic_camera, q_frame_all, frame_a
     # print('the box info is: \n', box_dic)
 
     predict_box_list = utils.predict_box(frame, box_dic, False)  # 过滤坐标
-    # print('the predict box list is:', predict_box_list)
     # 获取实际坐标 true_box_list=》[(工位id, (min_x, min_y, max_x, max_y) )]    dutyid_list -> 工位id
     true_box_list, dutyid_list = utils.true_box(read, frame, ca_id, dic_camera)
-    # print('true box size is: \n', true_box_list)
 
     res_list = utils.compute_status(true_box_list, predict_box_list, dutyid_list, ca_id)
     return res_list
@@ -389,11 +386,8 @@ def r_move(fps, q_frame_all, frame_all_list, human_exists):
         for c_frame in frame_all[key]:
             c_frame = utils.true_box_move(c_frame, human_exists_ori, human_exists, pred_move_reslist)
             frame_all_list.append(c_frame)
-        # print("length of frame_all_dict[key] is %d" % (len(frame_all_list)))
-    # print('the cn is: ', cn)
     if frameCount >= 10:
-        # print("begin to write the video clip into the local files!")
-        video_writer = cv2.VideoWriter('/home/bruce/bigVolumn/autolabelData/demoOutputVideo/result/'
+        video_writer = cv2.VideoWriter('/home/bruce/bigVolumn/autolabelData/demoOutputVideo/results/'
                                        '1101_5.avi', cv2.VideoWriter_fourcc(*'XVID'), 24,
                                        (frame_all_list[0].shape[1], frame_all_list[0].shape[0]))
         for item in frame_all_list:
