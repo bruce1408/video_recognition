@@ -104,7 +104,7 @@ python tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml NUM_GPUS 1 TRAIN
 
 # Usage
 >
->1. use a trained yolo-v4 detection and action recognition models
+>1. use a trained [yolo-v4](https://github.com/bruce1408/object_detection/tree/master/YOLO_v4) detection and [action recognition]() model.
 >2. put your to be tested video files into testVideo/ directory, configure the parameters in *ai/tempConfig/config.json*
 >3. modify the configuration file in *demo/Kinetics/SLOWFAST_8x8_R50*.yaml, here i used the method model ensemble, three models to jointly predict the result;
 >4. run the model
@@ -129,7 +129,10 @@ CHECKPOINT_FILE_PATH_3: /xxx/checkpoints/checkpoint_epoch_00250.pyth
 
 # Reference
 
-[slowfast](https://github.com/facebookresearch/SlowFast)
+- [slowfast](https://github.com/facebookresearch/SlowFast)
+
+- [SlowFast Networks for Video Recognition](https://openaccess.thecvf.com/content_ICCV_2019/html/Feichtenhofer_SlowFast_Networks_for_Video_Recognition_ICCV_2019_paper.html)
+
 # Contributors
 
 This project exists thanks to all the people who contribute.
