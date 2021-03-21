@@ -1,13 +1,12 @@
 {
-
   "site": "sxxzspj",
   "camera_data": [
     {
-      "cameraid": "north0001",
-      "link": "./demoInputVideo/MyVideo_2.mp4",
+      "cameraid": "north0005",
+      "link": "./testVideo/MyVideo_13.avi",
       "duty_data":[
           {
-            "position": "410,433,830,717",
+            "position": "288,276,443,388",
             "dutyid": "001",
             "offduty_limit": 0.5,
             "am_gowork_time": "8:00:00",
@@ -19,7 +18,7 @@
             "sleepduty_limit": 0.5,
             "playmobile_limit": 15},
           {
-            "position": "737,306,999,498",
+            "position": "309,409,509,567",
             "dutyid": "002",
             "offduty_limit": 0.5,
             "am_gowork_time": "8:00:00",
@@ -30,8 +29,8 @@
             "gohome_time_before": 10,
             "sleepduty_limit": 0.5,
             "playmobile_limit": 15},
-	      {
-            "position": "798,181,960,342",
+          {
+            "position": "1059,283,1174,386",
             "dutyid": "003",
             "offduty_limit": 0.5,
             "am_gowork_time": "8:00:00",
@@ -43,8 +42,44 @@
             "sleepduty_limit": 0.5,
             "playmobile_limit": 15},
           {
-            "position": "992,217,1177,403",
+            "position": "1068,430,1197,568",
             "dutyid": "004",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+        {
+            "position": "891,348,1021,456",
+            "dutyid": "005",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+        {
+            "position": "937,274,1000,332",
+            "dutyid": "006",
+            "offduty_limit": 0.5,
+            "am_gowork_time": "8:00:00",
+            "am_gohome_time": "12:00:00",
+            "pm_gowork_time": "13:00:00",
+            "pm_gohome_time": "23:50:00",
+            "gowork_time_after": 10,
+            "gohome_time_before": 10,
+            "sleepduty_limit": 0.5,
+            "playmobile_limit": 15},
+        {
+            "position": "858,294,946,371",
+            "dutyid": "007",
             "offduty_limit": 0.5,
             "am_gowork_time": "8:00:00",
             "am_gohome_time": "12:00:00",

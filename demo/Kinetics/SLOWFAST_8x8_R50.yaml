@@ -5,7 +5,6 @@ TRAIN:
   EVAL_PERIOD: 10
   CHECKPOINT_PERIOD: 1
   AUTO_RESUME: True
-#  CHECKPOINT_FILE_PATH: "./checkpoints/SLOWFAST_8x8_R50.pkl" # path to pretrain model to run demo
   CHECKPOINT_TYPE: pytorch
 DATA:
   NUM_FRAMES: 8
@@ -57,22 +56,9 @@ TEST:
   DATASET: kinetics
   BATCH_SIZE: 64
 # ==============
-#  CHECKPOINT_FILE_PATH_1: ./checkpoints/checkpoint_epoch_00196_1.pyth  # 00066, 00184, 之前使用196.pth, ck3_203, ck5_431
-#  CHECKPOINT_FILE_PATH_2: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_7/checkpoints/checkpoint_epoch_00431.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-#  CHECKPOINT_FILE_PATH_3: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_6/checkpoints/checkpoint_epoch_00432.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-# ===============
-#  CHECKPOINT_FILE_PATH_3: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_6/checkpoints/checkpoint_epoch_00432.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-# ===============
-#  CHECKPOINT_FILE_PATH_1: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_8/checkpoint_epoch_00103.pyth  # 00066, 00184, 之前使用196.pth, ck3_203, ck5_431
-#  CHECKPOINT_FILE_PATH_2: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_8/checkpoint_epoch_00082.pyth  # 00066, 00184, 之前使用196.pth, ck3_203, ck5_431
-#  CHECKPOINT_FILE_PATH_3: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_8/checkpoint_epoch_00083.pyth  # 00066, 00184, 之前使用196.pth, ck3_203, ck5_431
-# ====================
-#  CHECKPOINT_FILE_PATH_2: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_9/checkpoints/checkpoint_epoch_00114.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-#  CHECKPOINT_FILE_PATH_3: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_9/checkpoints/checkpoint_epoch_00187.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-# ===============
-  CHECKPOINT_FILE_PATH_1: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_9/checkpoints/checkpoint_epoch_00269.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-  CHECKPOINT_FILE_PATH_2: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_9/checkpoints/checkpoint_epoch_00210.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
-  CHECKPOINT_FILE_PATH_3: /home/bruce/bigVolumn/autolabelData/humanActionModel/checkpoints_9/checkpoints/checkpoint_epoch_00250.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
+  CHECKPOINT_FILE_PATH_1: /xxx/checkpoints/checkpoint_epoch_00269.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
+  CHECKPOINT_FILE_PATH_2: /xxx/checkpoints/checkpoint_epoch_00210.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
+  CHECKPOINT_FILE_PATH_3: /xxx/checkpoints/checkpoint_epoch_00250.pyth  # 00066, 00184效果好, 之前使用196.pth, ck3_203, ck5_431, ck6_432
 DATA_LOADER:
   NUM_WORKERS: 10
   PIN_MEMORY: True

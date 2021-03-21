@@ -1,0 +1,241 @@
+.
+├── README.md
+├── __pycache__
+│   └── config.cpython-36.pyc
+├── ai
+│   ├── CSPdarknet.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── CSPdarknet.cpython-36.pyc
+│   │   ├── __init__.cpython-36.pyc
+│   │   ├── config.cpython-36.pyc
+│   │   ├── demo_net.cpython-36.pyc
+│   │   ├── move_recognition.cpython-36.pyc
+│   │   ├── video_demo_v.cpython-36.pyc
+│   │   └── yolo4.cpython-36.pyc
+│   ├── _video_demo.py
+│   ├── config.json
+│   ├── config.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   └── utils.cpython-36.pyc
+│   │   ├── __utils.py
+│   │   ├── _utils.py
+│   │   ├── data
+│   │   │   └── data
+│   │   │       ├── one.names
+│   │   │       └── one_anchors.txt
+│   │   └── utils.py
+│   ├── demo_net.py
+│   ├── demo_net_orig.py
+│   ├── img
+│   ├── model_data
+│   │   ├── coco_classes.txt
+│   │   ├── simhei.ttf
+│   │   ├── voc_classes.txt
+│   │   ├── yolo_anchors.txt
+│   │   └── yolo_anchors_pt.txt
+│   ├── move_recognition.py
+│   ├── predictor.py
+│   ├── readStream.py
+│   ├── tempConfig
+│   │   ├── config.json
+│   │   ├── config2.json
+│   │   ├── config2p.json
+│   │   ├── config49.json
+│   │   ├── config_2.json
+│   │   ├── config_3.json
+│   │   ├── config_4.json
+│   │   ├── config_49only1.json
+│   │   ├── config_ruanjianyou.json
+│   │   ├── config_video_11.json
+│   │   ├── config_video_13.json
+│   │   ├── config_xidating3_test.json
+│   │   ├── configmultiPerson.json
+│   │   ├── configmultiPerson1.json
+│   │   ├── configworst.json
+│   │   └── configworst_less.json
+│   ├── video_demo.py
+│   ├── video_demo_v.py
+│   ├── yolo.py
+│   ├── yolo4.py
+│   └── yolo_training.py
+├── change_type
+│   ├── __init__.py
+│   ├── ckpt2pb.py
+│   ├── ckpt2sm.py
+│   ├── data
+│   │   ├── baseline_anchors.txt
+│   │   ├── head.names
+│   │   └── yolo_anchors.txt
+│   ├── model.py
+│   ├── test_pb.py
+│   └── utils
+│       ├── __init__.py
+│       ├── data_aug.py
+│       ├── data_utils.py
+│       ├── eval_utils.py
+│       ├── layer_utils.py
+│       ├── misc_utils.py
+│       ├── nms_utils.py
+│       ├── plot_utils.py
+│       └── utils.py
+├── checkpoints
+│   └── readme.txt
+├── config.py
+├── config.yaml
+├── configs
+│   ├── AVA
+│   │   ├── C2D_8x8_R50_SHORT.yaml
+│   │   ├── SLOWFAST_32x2_R50_SHORT.yaml
+│   │   └── c2
+│   │       ├── C2D_8x8_R50.yaml
+│   │       ├── SLOWFAST_32x2_R101_50_50.yaml
+│   │       ├── SLOWFAST_32x2_R101_50_50_v2.1.yaml
+│   │       ├── SLOWFAST_32x2_R50.yaml
+│   │       └── SLOWFAST_64x2_R101_50_50.yaml
+│   ├── Base-RCNN-FPN.yaml
+│   ├── 
+├── demo
+│   ├── AVA
+│   │   ├── SLOWFAST_32x2_R101_50_50.yaml
+│   │   └── ava.names
+│   ├── Kinetics
+│   │   ├── SLOWFAST_4x16_R50.yaml
+│   │   ├── SLOWFAST_8x8_R50.yaml
+│   │   ├── kinetics_3_labels.csv
+│   │   └── kinetics_400_labels.csv
+│   ├── README.md
+│   ├── ava_demo.gif
+│   ├── demo.py
+│   ├── outputs
+│   │   ├── 1.jpg
+│   │   ├── 11.jpg
+│   │   ├── 1178.jpg
+│   │   ├── 1181.jpg
+│   │   ├── 129.jpg
+│   │   ├── 1372.jpg
+│   │   ├── 2.jpg
+│   │   ├── 24.jpg
+│   │   ├── 27.jpg
+│   │   ├── 3.jpg
+│   │   ├── 34.jpg
+│   │   ├── 3448.jpg
+│   │   └── 92.jpg
+│   ├── predictDemo.py
+│   └── predictor.py
+├── local.config.yaml
+├── main.py
+├── results
+├── slowfast
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-36.pyc
+│   ├── config
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   └── defaults.cpython-36.pyc
+│   │   └── defaults.py
+│   ├── datasets
+│   │   ├── DATASET.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   ├── ava_dataset.cpython-36.pyc
+│   │   │   ├── ava_helper.cpython-36.pyc
+│   │   │   ├── build.cpython-36.pyc
+│   │   │   ├── cv2_transform.cpython-36.pyc
+│   │   │   ├── decoder.cpython-36.pyc
+│   │   │   ├── kinetics.cpython-36.pyc
+│   │   │   ├── transform.cpython-36.pyc
+│   │   │   ├── utils.cpython-36.pyc
+│   │   │   └── video_container.cpython-36.pyc
+│   │   ├── ava_dataset.py
+│   │   ├── ava_helper.py
+│   │   ├── build.py
+│   │   ├── cv2_transform.py
+│   │   ├── decoder.py
+│   │   ├── kinetics.py
+│   │   ├── loader.py
+│   │   ├── transform.py
+│   │   ├── utils.py
+│   │   └── video_container.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   ├── head_helper.cpython-36.pyc
+│   │   │   ├── model_builder.cpython-36.pyc
+│   │   │   ├── nonlocal_helper.cpython-36.pyc
+│   │   │   ├── resnet_helper.cpython-36.pyc
+│   │   │   ├── stem_helper.cpython-36.pyc
+│   │   │   └── video_model_builder.cpython-36.pyc
+│   │   ├── head_helper.py
+│   │   ├── losses.py
+│   │   ├── model_builder.py
+│   │   ├── nonlocal_helper.py
+│   │   ├── optimizer.py
+│   │   ├── resnet_helper.py
+│   │   ├── stem_helper.py
+│   │   └── video_model_builder.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-36.pyc
+│       │   ├── c2_model_loading.cpython-36.pyc
+│       │   ├── checkpoint.cpython-36.pyc
+│       │   ├── distributed.cpython-36.pyc
+│       │   ├── env.cpython-36.pyc
+│       │   ├── logging.cpython-36.pyc
+│       │   ├── misc.cpython-36.pyc
+│       │   ├── multiprocessing.cpython-36.pyc
+│       │   └── weight_init_helper.cpython-36.pyc
+│       ├── ava_eval_helper.py
+│       ├── ava_evaluation
+│       │   ├── README.md
+│       │   ├── __init__.py
+│       │   ├── ava_action_list_v2.1_for_activitynet_2018.pbtxt.txt
+│       │   ├── label_map_util.py
+│       │   ├── metrics.py
+│       │   ├── np_box_list.py
+│       │   ├── np_box_list_ops.py
+│       │   ├── np_box_mask_list.py
+│       │   ├── np_box_mask_list_ops.py
+│       │   ├── np_box_ops.py
+│       │   ├── np_mask_ops.py
+│       │   ├── object_detection_evaluation.py
+│       │   ├── per_image_evaluation.py
+│       │   └── standard_fields.py
+│       ├── bn_helper.py
+│       ├── c2_model_loading.py
+│       ├── checkpoint.py
+│       ├── distributed.py
+│       ├── env.py
+│       ├── logging.py
+│       ├── lr_policy.py
+│       ├── meters.py
+│       ├── metrics.py
+│       ├── misc.py
+│       ├── multiprocessing.py
+│       └── weight_init_helper.py
+├── structure.txt
+├── testVideo
+├── tools
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-36.pyc
+│   │   └── mqtt_tool.cpython-36.pyc
+│   ├── mqtt_tool.py
+│   ├── videoExtract.py
+│   └── video_encode.py
+└── utils
+    ├── __pycache__
+    │   └── utils.cpython-36.pyc
+    ├── dataloader.py
+    ├── utils.py
+    └── xmlfileCheck.py
+
+42 directories, 246 files
