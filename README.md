@@ -86,6 +86,8 @@ python tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml NUM_GPUS 1 TRAIN
 
 # Models DataSet
 
+[download](https://pan.baidu.com/s/1jXDLcpSBOkon-HBxWRLY1w) pasd: vtur
+
 ```
 1. save the faster_rcnn_R_50_FPN_1x file into configs/COCO-Detection/
 
