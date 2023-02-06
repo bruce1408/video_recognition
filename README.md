@@ -126,7 +126,7 @@ Here i used the model ensemble algorithm, three models to jointly predict the re
 
 # Results
 
-> Pic 1 is the result of the official data training, pic2, pic3, pic4 are the results of our moupdels.
+> Pic 1 is the result of the official data training, pic2, pic3, pic4 are the results of our models.
 
 <div align="center">
     <img src="demo/ava_demo.gif" width="600px"/>
